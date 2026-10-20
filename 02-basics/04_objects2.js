@@ -8,8 +8,8 @@ tinderuser.address = "Jbp"
 tinderuser.email = "tinderuser@gmail.com"
 
 // console.log(tinderuser);
-// console.log(Object.keys(tind
-// console.log(Object.values(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(
 // console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty("name"));
 

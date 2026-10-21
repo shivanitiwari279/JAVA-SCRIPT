@@ -26,7 +26,7 @@ const realuser = {
 
 // console.log(realuser.fullname);
 // console.log(realuser.fullname);
-// console.log(realuser.fullname.usernam
+// console.log(realuser.fullname.username.fastname);
 
 //COMBINING TWO OR MOARE OBJECT
 

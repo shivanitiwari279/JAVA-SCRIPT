@@ -24,7 +24,7 @@ const realuser = {
     }
 }
 
-// console.log(real
+// console.log(realuser.fullname);
 // console.log(realuser.fullname);
 // console.log(realuser.fullname.username.fastname);
 

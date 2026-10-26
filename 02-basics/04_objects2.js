@@ -58,8 +58,12 @@ const users = [
     user3 = {
         id: "03",
         name : "Sammy"
+    },
+    user4 = {
+        id: "04",
+        name: "Roze"
     }
 ]
 
-// console.log(users[0].name);
+console.log(users[3].name);
  

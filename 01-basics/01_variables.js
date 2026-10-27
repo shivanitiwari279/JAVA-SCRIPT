@@ -13,4 +13,5 @@ console.log(accountPassword);
 
 
 console.table([accountID,accountPassword,accountName,accountCity]);  //we use ".table" when we have to print evry variable without letting them  
-                                                                      //take again again with "consol.log()"
+                                                                     //take again again with "consol.log()"
+

@@ -7,11 +7,11 @@ tinderuser.id ="123abc"
 tinderuser.address = "Jbp"
 tinderuser.email = "tinderuser@gmail.com"
 
-console.log(tinderuser);
+// console.log(tinderuser);
 // console.log(Object.keys(tinderuser));
 // console.log(Object.values(tinderuser));
 // console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty("name"));
+// console.log(tinderuser.hasOwnProperty("name"));
 
 
 const realuser = {
@@ -65,5 +65,18 @@ const users = [
     }
 ]
 
-console.log(users[3].name);
+// console.log(users[3].name);
+
+
+//*************DESTRUCTURING (using "{}" )OF AN OBJECT**************//
+
+const course = {
+    courseName : "Learing JAVA SCRIPT",
+    coursePrice : "999",
+    courseInstructor : "Shivani"
+}
+
+const{courseName,coursePrice,courseInstructor}=course
+console.log(courseName);
+
  

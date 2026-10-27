@@ -4,20 +4,32 @@ const repoCount = 8
 
 //console.log("My name is " + name + " and my repocount is "+ repoCount );  //OUTDATED !!
 
-// console.log(`My name is ${name} and my repocount is ${repoCount} `);  
+// console.log(`My name is ${name} and my repocount is ${repoCount} `);  //Using Backtick(`)
 
 //MODERN AND WELL STRUCTURED FORM KNOWN AS "STRING INTERPOLATION" AND ALSO HAS THE BENIFITIAL PART THAT WE CAN DO MULTIPLE THINGS 
 // ON GO
 
 
 const newName = new String("Vani")
-console.log(newName);
-console.log(newName[0]);
-console.log(newName.__proto__);
-console.log(newName.charAt(2));
-console.log(newName.indexOf('i'));
-console.log(newName.length);
-console.log(newName.toUpperCase());
+// console.log(newName);
+// console.log(newName[0]);
+// console.log(newName.__proto__);
+// console.log(newName.charAt(2));
+// console.log(newName.at(2));              //.at() supports negative indexing, whereas .charAt() does not.
+// console.log(newName.indexOf('i'));
+// console.log(newName.length);
+// console.log(newName.toUpperCase());
+
+const str1 = "Shivani"
+const str2 = "Tiwari"
+const str3 = str1.concat(" "+str2)
+// console.log(str3);
+// console.log(str3.endsWith("i"));
+// console.log(str3.includes("T"));
+// console.log(str3.padEnd(16,"i"));
+// console.log(str3.padStart(16,"S"));
+console.log(str3.repeat(2));
+console.log(str3.replace("Shivani","Vani"));
 
 
 /*

@@ -16,7 +16,7 @@ console.table([name,age,is18pluse])
   3.  sting => ""
   4.  boolean => true/false
   5.  null => standalone value 
-  6.  undefined => (something taht is declared but not yet defined)
+  6.  undefined => (something that is declared but not yet defined)
   7.  symbol => (for uniqueness) 
 
 */

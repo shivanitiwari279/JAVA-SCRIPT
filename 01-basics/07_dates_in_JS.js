@@ -1,5 +1,6 @@
 let mydate = new Date()
 
+// console.log(mydate);
 // console.log(mydate.toString());
 // console.log(mydate.toDateString());
 // console.log(mydate.toISOString());
@@ -10,15 +11,16 @@ let mydate = new Date()
 
 // console.log(mydate.toString());
 // console.log(mydate.getDay());
+// console.log(mydate.getDate());
 // console.log(mydate.getMonth()+1);
 // console.log(mydate.getFullYear());
 
 console.log(mydate.toLocaleString('default',{                 //FOR MORE SPECIFICATION WE USE THS OBJECT FORMAT
     weekday : "long",
-    day : "2-digit"
+    day : "2-digit",
 }));
 
-console.log(`Todays date is ${mydate.toLocaleDateString()} and the time is ${mydate.toLocaleTimeString()}`);
+// console.log(`Todays date is ${mydate.toLocaleDateString()} and the time is ${mydate.toLocaleTimeString()}`);
 
 
 let myCreatedDate = new Date(2026,7,4)

@@ -9,5 +9,14 @@ function sayMyName(){
     console.log("I");
 }
 
-sayMyName()
+// sayMyName()
 
+function addTwoNumbers(num1 , num2) {
+    // console.log(num1+num2);   
+    // let result = num1+num2
+    // return result
+    return num1+num2
+}
+
+const result=addTwoNumbers(31,85)
+// console.log("Result:",result);

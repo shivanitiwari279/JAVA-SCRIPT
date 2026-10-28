@@ -1,17 +1,17 @@
 // GLOBAL SCOPES:A variable declared outside any function or block has global scope. 
 // It can be accessed from different parts of your code.
-let name = "Shivani"
-const age = 20
+// let name = "Shivani"
+// const age = 20
 
-function greet() {
-    console.log(name);
-    console.log(age);
-}
+// function greet() {
+//     console.log(name);
+//     console.log(age);
+// }
 
-greet();
+// greet();
 
-console.log(name);
-console.log(age);
+// console.log(name);
+// console.log(age);
 
 //BLOCK SCOPE:A block is a piece of code enclosed within curly braces { }, such as an if statement or a for loop.
 //Variables declared using let and const inside a block can only be accessed within that block.
@@ -31,11 +31,40 @@ if (true) {
 //FUNCTION SCOPE: A variable declared using var, let, or const inside a function can be accessed within that function,
 // but not from outside it.
 
-// function greet() {
-//     let name = "Shivani";
-//     console.log(name);
-// }
+function greet() {
+    let name = "Shivani";
+    console.log(name);
+}
 
 // greet();
 
-//console.log(name);  //CAN NTO BE ACCESSED 
+//console.log(name);  //CAN NOT BE ACCESSED 
+
+
+//NESTED SCOPES 
+
+function parent() {
+    const name = "Shivani"
+    function child() {
+        const source = "VS code"
+        console.log(name);
+    }
+    // console.log(source);
+
+    child()
+}
+
+// parent()
+
+if (true) {
+    const name = "Shivani"
+    if (name == "Shivani") {
+        const sirname = " Tiwari"
+        console.log(name + sirname);
+    }
+
+    // console.log(sirname);
+    
+}
+
+// console.log(name);

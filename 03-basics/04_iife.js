@@ -20,5 +20,5 @@
 //USING ARROW FUNCTION
 
 ((name) => {
-    console.log(`Welcome to website, ${name}! `);  
+    console.log(`Welcome to website ${name}!`);  
 })("Shivani")

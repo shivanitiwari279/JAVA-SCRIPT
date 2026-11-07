@@ -11,7 +11,6 @@ const all_heros  = marvel_heros.concat(dc_heros,Spiritual_heros)
 
 const all_new_heros  = [...marvel_heros,...dc_heros,...Spiritual_heros]
 // console.log(all_new_heros);
-
 // HENCE, THE DIFFERENCE BETWEEN "CONCAT()" AND "SPREAD [...ARR1, ...ARR2]" IS THAT "CONCAT()" COMBINES TWO OR MORE ARRAYS,
 // THIS METHOD RETURNS A NEW ARRAY WITHOUT MODIFYING ANY EXISTING ARRAYS. WHEREAS THE "SPREAD OPERATOR" EXPANDS THE ELEMENTS 
 // OF ARRAYS AND CAN BE USED TO COMBINE TWO OR MORE ARRAYS INTO A NEW ARRAY.

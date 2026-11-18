@@ -1,6 +1,7 @@
 //Objects Constructor (SINGLETON)
 
 // const tinderuser = new Object()
+
 const tinderuser = {}
 
 tinderuser.id ="123abc"

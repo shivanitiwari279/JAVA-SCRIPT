@@ -12,6 +12,7 @@ console.log("A:" , arr);
 // console.log(arr2);
 
 
+
 //  ARRAY METHODS
  
 arr.push(7)
